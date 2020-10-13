@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack_Queue_Palindrome", "Stack_Queue_Palindrome.csproj", "{B5E1BD1B-13D1-4FB9-8988-F8CE30C4B898}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomQueue", "..\CustomQueue\CustomQueue.csproj", "{BFB77DA8-82F8-424B-A3D1-07B8611014AF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "..\CustomStack\CustomStack.csproj", "{76A75D9D-CF2C-497B-B59A-869B5FEBD199}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{B5E1BD1B-13D1-4FB9-8988-F8CE30C4B898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E1BD1B-13D1-4FB9-8988-F8CE30C4B898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E1BD1B-13D1-4FB9-8988-F8CE30C4B898}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFB77DA8-82F8-424B-A3D1-07B8611014AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFB77DA8-82F8-424B-A3D1-07B8611014AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFB77DA8-82F8-424B-A3D1-07B8611014AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFB77DA8-82F8-424B-A3D1-07B8611014AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76A75D9D-CF2C-497B-B59A-869B5FEBD199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76A75D9D-CF2C-497B-B59A-869B5FEBD199}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76A75D9D-CF2C-497B-B59A-869B5FEBD199}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76A75D9D-CF2C-497B-B59A-869B5FEBD199}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
