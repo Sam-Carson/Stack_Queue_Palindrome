@@ -33,7 +33,7 @@ namespace Stack_Queue_Palindrome
 
         public T Pop()
         {
-            if (top == null) throw new ApplicationException(message: "Empty Stack");
+            if (top == null) throw new ApplicationException();
             T item = top.data;
             top = top.next;
             count--;

@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Stack_Queue_Palindrome
 {
     public class CustomQueue<T>
     {
-        protected class QueueNode<T2>
+        protected class QueueNode<G>
         {
-            public T2 data;
-            public QueueNode<T2> next;
+            public G data;
+            public QueueNode<G> next;
 
-            public QueueNode(T2 data)
+            public QueueNode(G data)
             {
                 this.data = data;
             }
@@ -38,7 +36,7 @@ namespace Stack_Queue_Palindrome
 
         public T Dequeue()
         {
-            if (head == null) throw new ApplicationException(message: "Empty Queue");
+            if (head == null) throw new ApplicationException();
             {
                 T item = head.data;
                 head = head.next;
