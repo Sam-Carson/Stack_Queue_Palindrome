@@ -30,9 +30,11 @@ namespace Stack_Queue_Palindrome
                     rawUserInput = repeatProgram;
                 }
 
+
+
             } while (repeatProgram != "NO");
 
-            WriteLine("Later gator!");
+            WriteLine("Ah, Aibohphobia!");
 
         }
     }
